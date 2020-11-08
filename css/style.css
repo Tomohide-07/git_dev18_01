@@ -1,0 +1,428 @@
+/* header */
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_nav{
+    font-size: 21px;
+    display: flex;
+}
+
+.header_nav li{
+    margin-left: 50px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+/* mainvisual  */
+
+.mainvisual{
+    height: 400px;
+    background: url("../img/mainbg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mainvisual_title{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.mainvisual_subtitle{
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* about */
+.about{
+    text-align: center;
+    padding: 60px 80px;
+}
+
+.about_title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffd61a;
+    margin-bottom: 30px;
+}
+
+.about_subtitle{
+    margin-bottom: 60px;
+    font-size: 18px;
+}
+
+.about_text{
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* 画像 */
+.imgBox{
+    display: flex;
+}
+
+.imgBox p{
+    width: 25%;
+}
+
+.imgBox p img{
+    width: 100%;
+}
+
+/* course */
+.course{
+    padding: 60px 80px;
+    text-align: center;
+}
+
+.course_title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #ffd61a;
+}
+
+.course_text{
+    font-size: 16px;
+    margin-bottom: 40px;
+    line-height: 1.8;
+}
+
+/* CourseImg */
+.Box {
+    display: flex;
+    margin: 5px 0;
+}
+
+/* News */
+.newsBox{
+    padding-top: 60px;
+}
+
+.newsList{
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    margin: 60px auto;
+    line-height: 1.8;
+}
+
+.news_title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffd61a;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.news_subtitle{
+    margin-bottom: 60px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.newsList_item{
+    width: 300px;
+}
+
+.newsList_item_img{
+    margin-bottom: 30px;
+}
+
+.newsList_item_day{
+    margin-bottom: 24px;
+}
+
+
+/* Access */
+.access{
+    text-align: center;
+    width: 100%;
+    line-height: 1.8;
+    background: #fafafa;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.access_title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #ffd61a;
+}
+
+.access_subtitle{
+    margin-bottom: 60px;
+    font-size: 18px;
+}
+
+.company_profile {
+    width: 600px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+.company_profile th,
+.company_profile td {
+    padding: 10px 20px;
+    text-align: left;
+}
+
+/* Contact */
+.contact{
+    text-align: center;
+    padding: 60px 140px;;
+}
+
+.contact_title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #ffd61a;
+}
+
+.contact_subtitle{
+    margin-bottom: 60px;
+    font-size: 18px;
+}
+
+.contact_text{
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.formBox {
+    width: 600px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+.formBox th,
+.formBox td {
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.formBox span{
+    vertical-align: auto;
+}
+
+/* footer */
+.footer{
+    background: #707070;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+
+/* ボタン */
+.wrap {
+    text-align:center;
+}
+
+.btn{
+    height: 60px;
+    width: 300px;
+    position: relative;
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+    background: #ffd61a;
+    border-radius: 4px;
+    font-weight: bold;
+    line-height: 60px;
+    margin-bottom: 60px;
+}
+
+.btn:hover{
+    height: 60px;
+    width: 300px;
+    position: relative;
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+    background: rgb(53, 53, 53);
+    border-radius: 4px;
+    font-weight: bold;
+    line-height: 60px;
+    margin-bottom: 60px;
+}
+
+.btn_submit{
+    height: 60px;
+    width: 300px;
+    font-size: 18px;
+    position: relative;
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+    background: #ffd61a;
+    border-radius: 4px;
+    font-weight: bold;
+    line-height: 50px;
+    margin-bottom: 60px;
+    border: none;
+}
+
+.btn_submit:hover{
+    height: 60px;
+    width: 300px;
+    font-size: 18px;
+    position: relative;
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+    background: rgb(53, 53, 53);
+    border-radius: 4px;
+    font-weight: bold;
+    line-height: 50px;
+    margin-bottom: 60px;
+    border: none;
+}
+
+/* コンタクトフォーム */
+.contactForm{
+    height: 640px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactForm label{
+    text-align: left;
+}
+
+/* コース */
+.box1 > .img{
+    float: left;
+    width: 50%;
+}
+
+.box1 > .text{
+    float: right;
+    width: 50%;
+    height: 462px;
+    background-color: #fafafa;
+}
+
+
+.box2 > .img{
+    float: right;
+    width: 50%;
+}
+
+.box2 > .text{
+    float: left;
+    height: 457px;
+    width: 50%;
+    background-color: #fafafa;
+}
+
+.box3 > .img{
+    float: left;
+    width: 50%;
+}
+
+.box3 > .text{
+    float: right;
+    width: 50%;
+    height: 458px;
+    background-color: #fafafa;
+}
+
+.text1{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20%;
+    margin-left: 80px;
+    text-align: left;
+}
+
+.text2{
+    font-size: 16px;
+    text-align: left;
+    margin-left: 80px;
+    line-height: 1.8;
+}
+
+.courseImg{
+    height: 1380px;
+}
+
+/* コンタクトフォーム */
+.contactForm_table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    line-height: 1.4;
+    border-collapse: collapse;
+}
+    
+.contactForm_table th,
+.contactForm_table td {
+    padding: 10px 20px;
+    text-align: left;
+    vertical-align: top;
+    border-color: gray;
+    border-style: solid;
+    border-width: 0.5px 0;
+}
+
+.contactForm_table th{
+    width: 30%;
+    background-color: #fafafa;
+}
+
+.douki label{
+    display: block;
+}
+
+
+/* thanksページ用 */
+.thanks{
+    border-top: solid 1px;
+    height: 400px;
+    text-align: center;
+}
+
+.thanks h2{
+    font-size: 30px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.thanks p{
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.thanks a{
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}  
